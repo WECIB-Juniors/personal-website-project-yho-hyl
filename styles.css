@@ -1,11 +1,55 @@
 *{
     box-sizing: border-box;
+    background: #D5DBE2;;
 }
 
+
    /*
---text: #051734;
---background: #f7faff;
---primary: #466eb6;
---secondary: #a0b7e1;
---accent: #092e71;
+--Light shades: #D5DBE2;
+--Light accent: #B3BFCB;
+--Main brand color: #778CA4;
+--Dark accent: #4F6271;
+--Dark shades: #313C45;
    */
+
+
+.name{
+    font-size: 50px;
+    color: #313c45;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    border-radius: 25%;
+    width: 20px;
+}
+
+.propic{
+    border-radius: 100%;
+    width: 25;
+    height: 25;
+    border-color: aqua;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #B3BFCB;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: #778CA4;
+    background-color: #B3BFCB;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #4F6271;
+}
